@@ -1,5 +1,9 @@
 'use strict' 
 
+import {sum} from './add.js';
+
+console.log(sum(1,2));
+
 // es6 기능 : 블록 스코프 변수 선언
 const sentences = [
     { subject : 'Javascript' , verb : 'is' , object : 'great'},

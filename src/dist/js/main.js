@@ -1,4 +1,8 @@
-'use strict'; // es6 기능 : 블록 스코프 변수 선언
+'use strict';
+
+var _add = require("./add.js");
+
+console.log((0, _add.sum)(1, 2)); // es6 기능 : 블록 스코프 변수 선언
 
 var sentences = [{
   subject: 'Javascript',
